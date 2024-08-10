@@ -1,0 +1,27 @@
+.scrollbar-gutter {
+    scrollbar-gutter: stable;
+}
+  
+.scrollbar-gutter-auto {
+    scrollbar-gutter: auto;
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+
+/* Scrollbar appears when hovered over */
+.scrollbar-appear{
+    overflow: hidden;
+}
+.scrollbar-appear:hover{
+    overflow: auto;
+}
